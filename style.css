@@ -42,10 +42,156 @@ header {
   color:#FAFAFA
 }
 
-.title {
+.main-title {
   font-size: 64px;
+  padding-top: 200px;
+  text-align: center;
 }
 
 .semi-title {
   font-size: 20px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.Portfolio {
+  background-color: #ECEFF1;
+}
+
+.container {
+  width: 920px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.title {
+  padding-top: 90px;
+  font-size: 32px;
+}
+
+hr {
+  height: 3px;
+  width: 70px;
+  background-color: #EC715F;
+  margin: 8px auto 0 auto;
+  border: none;
+}
+
+.message {
+  font-size: 16px;
+  color: #000000;
+  padding: 30px 0;
+}
+
+.box-port {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 90px;
+}
+
+.box {
+  height: 250px;
+  width: 300px;
+  background-size: cover;
+  background-position: center;
+}
+
+.box:nth-child(1) {
+  background-image: url(images/sketch.jpg);
+  margin: 0 10px 10px 0;
+}
+
+.box:nth-child(2) {
+  background-image: url(images/websuku.png);
+  margin: 0 10px 10px 0;
+}
+
+.box:nth-child(3) {
+  background-image: url(images/write.jpg);
+  margin-bottom: 10px;
+}
+
+.box:nth-child(4) {
+  background-image: url(images/webcamp.png);
+  margin-right: 10px;
+}
+
+.box:nth-child(5) {
+  background-image: url(images/talk.jpg);
+  margin-right: 10px;
+}
+
+.box:nth-child(6) {
+  background-image: url(images/webcamp-mother.png);
+}
+
+.Feature .container {
+  width: 980px;
+}
+
+.contents {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 90px;
+}
+
+.content {
+  width: 320px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.content:nth-child(3) {
+  margin-right: 0;
+}
+
+.icon {
+  font-size: 60px;
+}
+
+.strength {
+  font-size: 20px;
+  color: #000000;
+  padding: 10px 0;
+}
+
+.contents p {
+  text-align: left;
+  font-size: 16px;
+}
+
+.Profile {
+  background-color: #ECEFF1;
+}
+
+.Profile .container {
+  width: 1024px;
+}
+
+.introduction {
+  display: flex;
+
+}
+
+.left {
+  width: 512px;
+}
+
+.my-photo {
+  border-radius: 50%;
+}
+
+.right {
+  width: 512px;
+  text-align: left;
+}
+
+.me {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.me:nth-child(2) {
+  padding-top: 20px;
 }
