@@ -199,6 +199,20 @@ hr {
   width: 800px;
 }
 
+.cont-box {
+  display: flex;
+}
+
+.conts-left {
+  width: 130px;
+  margin: 0 auto;
+}
+
+.conts-right {
+  width: 200px;
+  margin: 0 auto;
+}
+
 .cont-left,
 .cont-right {
   width: 400px;
@@ -206,4 +220,30 @@ hr {
 
 .cont-title {
   font-size: 20px;
+  margin-bottom: 5px;
+  margin-top: 20px;
+}
+
+.cont-icon {
+  font-size: 50px;
+}
+
+.twitter {
+  margin: 0 20px;
+}
+
+.cont-title:nth-child(1) {
+  margin-top: 0;
+}
+
+footer {
+  height: 60px;
+  background-color: #EC715F;
+}
+
+.copyright {
+  color: #FAFAFA;
+  font-size: 16px;
+  line-height: 60px;
+  text-align: center;
 }
